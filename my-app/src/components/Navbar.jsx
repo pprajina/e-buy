@@ -86,8 +86,18 @@ const Navbar = () => {
           <Logo>E-BUY.</Logo>
         </Center>
         <Right>
+        <Link to="/">
+        <MenuItem>HOME</MenuItem>
+        </Link>
+        <Link to="/products">
+          <MenuItem>PRODUCTS</MenuItem>
+        </Link>
+        <Link to="/register">
           <MenuItem>REGISTER</MenuItem>
+          </Link>
+          <Link to="/login">
           <MenuItem>SIGN IN</MenuItem>
+          </Link>
           <Link to="/cart">
           <MenuItem>
             <Badge badgeContent={quantity} color="primary">
