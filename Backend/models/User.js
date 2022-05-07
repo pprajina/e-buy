@@ -28,6 +28,8 @@ var UserSchema = new Schema({
         default:false
         // if wehen create user not goona be admin
     },
+   img:{type:String},
+
 },
 
     {
