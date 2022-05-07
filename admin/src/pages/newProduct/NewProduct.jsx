@@ -74,15 +74,15 @@ uploadTask.on('state_changed',
         </div>
         <div className="addProductItem">
           <label>Title</label>
-          <input name="title" type="text" placeholder="Jacket" onChange={handleChange} />
+          <input name="title" type="text"  onChange={handleChange} />
         </div>
         <div className="addProductItem">
           <label>Description</label>
-          <input name="desc" type="text" placeholder="description..." onChange={handleChange}/>
+          <input name="desc" type="text"  onChange={handleChange}/>
         </div>
         <div className="addProductItem">
           <label>Price</label>
-          <input name="price" type="number" placeholder="100" onChange={handleChange}/>
+          <input name="price" type="number"  onChange={handleChange}/>
         </div>
         <div className="addProductItem">
           <label>Categories</label>
