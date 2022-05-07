@@ -27,7 +27,7 @@ export default function User() {
               className="userShowImg"
             />
             <div className="userShowTopTitle">
-              <span className="userShowUsername">Anna Becker</span>
+              <span className="userShowUsername">Anna </span>
               <span className="userShowUserTitle">Software Engineer</span>
             </div>
           </div>
@@ -35,7 +35,7 @@ export default function User() {
             <span className="userShowTitle">Account Details</span>
             <div className="userShowInfo">
               <PermIdentity className="userShowIcon" />
-              <span className="userShowInfoTitle">annabeck99</span>
+              <span className="userShowInfoTitle">anna99</span>
             </div>
             <div className="userShowInfo">
               <CalendarToday className="userShowIcon" />
@@ -44,15 +44,15 @@ export default function User() {
             <span className="userShowTitle">Contact Details</span>
             <div className="userShowInfo">
               <PhoneAndroid className="userShowIcon" />
-              <span className="userShowInfoTitle">+1 123 456 67</span>
+              <span className="userShowInfoTitle">+997 987654321</span>
             </div>
             <div className="userShowInfo">
               <MailOutline className="userShowIcon" />
-              <span className="userShowInfoTitle">annabeck99@gmail.com</span>
+              <span className="userShowInfoTitle">anna@gmail.com</span>
             </div>
             <div className="userShowInfo">
               <LocationSearching className="userShowIcon" />
-              <span className="userShowInfoTitle">New York | USA</span>
+              <span className="userShowInfoTitle">Dhulikhel</span>
             </div>
           </div>
         </div>
@@ -64,15 +64,13 @@ export default function User() {
                 <label>Username</label>
                 <input
                   type="text"
-                  placeholder="annabeck99"
-                  className="userUpdateInput"
+                     className="userUpdateInput"
                 />
               </div>
               <div className="userUpdateItem">
                 <label>Full Name</label>
                 <input
                   type="text"
-                  placeholder="Anna Becker"
                   className="userUpdateInput"
                 />
               </div>
@@ -80,7 +78,6 @@ export default function User() {
                 <label>Email</label>
                 <input
                   type="text"
-                  placeholder="annabeck99@gmail.com"
                   className="userUpdateInput"
                 />
               </div>
@@ -88,7 +85,6 @@ export default function User() {
                 <label>Phone</label>
                 <input
                   type="text"
-                  placeholder="+1 123 456 67"
                   className="userUpdateInput"
                 />
               </div>
@@ -96,7 +92,6 @@ export default function User() {
                 <label>Address</label>
                 <input
                   type="text"
-                  placeholder="New York | USA"
                   className="userUpdateInput"
                 />
               </div>
@@ -105,7 +100,7 @@ export default function User() {
               <div className="userUpdateUpload">
                 <img
                   className="userUpdateImg"
-                  src="https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScdHD-KQQkMQdJcXTSALcRVFp7chjRbA0e-w&usqp=CAU"
                   alt=""
                 />
                 <label htmlFor="file">
